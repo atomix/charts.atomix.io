@@ -582,6 +582,25 @@ entries:
     version: 0.1.0
   atomix-multi-raft-controller:
   - apiVersion: v2
+    appVersion: v0.3.0
+    created: "2022-08-13T07:08:14.30717622Z"
+    description: The multi-raft controller extends the Kubernetes API with custom
+      resources for multi-raft stores.
+    digest: 9b1c9a61dda57b96cc7627a5d45c9522a83d8370ccd8006b40db7a36728769f9
+    home: https://atomix.io
+    keywords:
+    - atomix
+    - raft
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-multi-raft-controller
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-multi-raft-controller-1.1.0/atomix-multi-raft-controller-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: v0.2.0
     created: "2022-07-29T11:15:23.19896166Z"
     description: The multi-raft controller extends the Kubernetes API with custom
@@ -1522,4 +1541,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-13T04:49:12.638026405Z"
+generated: "2022-08-13T07:08:14.30787292Z"
