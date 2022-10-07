@@ -1203,6 +1203,24 @@ entries:
     version: 0.1.0
   atomix-runtime-controller:
   - apiVersion: v2
+    appVersion: v0.6.x
+    created: "2022-10-07T01:38:00.954905768Z"
+    description: The core Atomix runtime controller implements the Atomix Cloud runtime
+      API
+    digest: e3efebbd1aff883d2b8d05290c8f4e6860ffb4d6f61062d2c4395d9605a339be
+    home: https://atomix.io
+    keywords:
+    - atomix
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-runtime-controller
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-runtime-controller-1.4.0/atomix-runtime-controller-1.4.0.tgz
+    version: 1.4.0
+  - apiVersion: v2
     appVersion: v0.4.1
     created: "2022-08-16T05:11:12.186703577Z"
     description: The core Atomix runtime controller implements the Atomix Cloud runtime
@@ -1672,4 +1690,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-07T01:32:51.801926199Z"
+generated: "2022-10-07T01:38:00.955277765Z"
