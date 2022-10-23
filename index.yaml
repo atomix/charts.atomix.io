@@ -1317,6 +1317,33 @@ entries:
     version: 0.1.0
   atomix-runtime:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2022-10-23T08:32:18.925112319Z"
+    dependencies:
+    - alias: runtime-controller
+      name: atomix-runtime-controller
+      repository: https://charts.atomix.io
+      version: 1.6.2
+    - alias: multi-raft-controller
+      condition: storage.multiRaft.enabled
+      name: atomix-multi-raft-controller
+      repository: https://charts.atomix.io
+      version: 1.3.3
+    description: Umbrella chart for deploying Atomix runtime controllers
+    digest: 7fbfad273047c4f838f453966024d5b080f0489e772f29f16b3852000c2b958e
+    home: https://atomix.io
+    keywords:
+    - atomix
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-runtime
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-runtime-0.1.2/atomix-runtime-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: v0.1.1
     created: "2022-10-22T08:04:57.971064518Z"
     dependencies:
@@ -2039,4 +2066,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-23T08:27:49.748776934Z"
+generated: "2022-10-23T08:32:18.926015028Z"
