@@ -1810,6 +1810,27 @@ entries:
     urls:
     - https://github.com/atomix/charts.atomix.io/releases/download/atomix-runtime-controller-0.6.9/atomix-runtime-controller-0.6.9.tgz
     version: 0.6.9
+  atomix-shared-memory-controller:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-10-28T12:04:26.683142927Z"
+    description: The shared memory controller extends the Kubernetes API with custom
+      resources for memory stores.
+    digest: 1c8ef3f56b4015dfa6eaf0b5b83347df9f84467b22a2f1f6dd40b80e5abccb2d
+    home: https://atomix.io
+    keywords:
+    - atomix
+    - memory
+    - cache
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-shared-memory-controller
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-shared-memory-controller-1.0.0/atomix-shared-memory-controller-1.0.0.tgz
+    version: 1.0.0
   cache-storage-controller:
   - apiVersion: v2
     appVersion: v0.3.0
@@ -2172,4 +2193,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-28T11:58:16.463245412Z"
+generated: "2022-10-28T12:04:26.683692092Z"
