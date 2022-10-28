@@ -155,6 +155,26 @@ entries:
     version: 0.1.2
   atomix-consensus-controller:
   - apiVersion: v2
+    appVersion: v0.7.0
+    created: "2022-10-28T11:55:41.250390113Z"
+    description: The consensus controller extends the Kubernetes API with custom resources
+      for consensus stores.
+    digest: 583b53862444ac78dee4336e208a311bfdd21372a5d978a34cd87f959be3cf3e
+    home: https://atomix.io
+    keywords:
+    - atomix
+    - consensus
+    - raft
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-consensus-controller
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-consensus-controller-1.5.0/atomix-consensus-controller-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
     appVersion: v0.6.0
     created: "2022-10-25T22:48:04.679352874Z"
     description: The consensus controller extends the Kubernetes API with custom resources
@@ -2132,4 +2152,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-25T23:04:34.734291852Z"
+generated: "2022-10-28T11:55:41.251646623Z"
