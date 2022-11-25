@@ -1378,6 +1378,43 @@ entries:
     version: 0.1.0
   atomix-runtime:
   - apiVersion: v2
+    appVersion: v0.1.8
+    created: "2022-11-25T09:42:15.961092934Z"
+    dependencies:
+    - alias: controller
+      name: atomix-runtime-controller
+      repository: https://charts.atomix.io
+      version: 1.6.7
+    - alias: consensus-controller
+      condition: storage.consensus.enabled
+      name: atomix-consensus-controller
+      repository: https://charts.atomix.io
+      version: 1.5.0
+    - alias: shared-memory-controller
+      condition: storage.sharedMemory.enabled
+      name: atomix-shared-memory-controller
+      repository: https://charts.atomix.io
+      version: 1.0.0
+    - alias: pod-memory-controller
+      condition: storage.podMemory.enabled
+      name: atomix-pod-memory-controller
+      repository: https://charts.atomix.io
+      version: 1.0.0
+    description: Umbrella chart for deploying Atomix runtime controllers
+    digest: 7cfc74b20745bddc546f7ea0821b53b9673b9bc7d0f8dc98a600d4cdd418163d
+    home: https://atomix.io
+    keywords:
+    - atomix
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-runtime
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-runtime-0.1.8/atomix-runtime-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
     appVersion: v0.1.7
     created: "2022-11-25T08:13:32.840973306Z"
     dependencies:
@@ -2413,4 +2450,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-25T09:34:36.417944562Z"
+generated: "2022-11-25T09:42:15.96152244Z"
