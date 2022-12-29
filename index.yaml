@@ -194,6 +194,25 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/atomix-0.1.2/atomix-0.1.2.tgz
     version: 0.1.2
+  atomix-bench:
+  - apiVersion: v2
+    created: "2022-12-29T03:36:42.994585897Z"
+    description: Benchmarking Helm chart for Atomix
+    digest: f58bd1bec76518f195881aeb732395704e15836db038a270c67629fe772a82d5
+    home: https://atomix.io
+    keywords:
+    - atomix
+    - performance
+    - benchmark
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: jordan.halterman@intel.com
+      name: Jordan Halterman
+    name: atomix-bench
+    type: application
+    urls:
+    - https://github.com/atomix/charts.atomix.io/releases/download/atomix-bench-1.0.0/atomix-bench-1.0.0.tgz
+    version: 1.0.0
   atomix-consensus-controller:
   - apiVersion: v2
     appVersion: v0.7.1
@@ -2548,4 +2567,4 @@ entries:
     urls:
     - https://github.com/atomix/helm-charts/releases/download/raft-storage-controller-0.1.0/raft-storage-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-29T03:31:57.36530985Z"
+generated: "2022-12-29T03:36:42.995277388Z"
